@@ -12,17 +12,13 @@ body{
     padding: 20px;
 }
 
-/* ===== HEADER ===== */
 header{
     max-width: 1100px;
     margin: auto;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 20px 30px;
-
     background-color: #181818;
     border: 1px solid #2d2d2d;
     border-bottom: none;
@@ -30,6 +26,11 @@ header{
 
 header h1{
     font-size: 20px;
+}
+
+h3{
+    font-size: 15px;
+    color:white;
 }
 
 header ul{
@@ -48,16 +49,37 @@ header a:hover{
     color: white;
 }
 
-/* ===== MAIN ===== */
+.button-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    margin-top: 20px;
+
+}
+
+.button-group button{
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #181818;
+    border-color: white;
+    color: white;
+}
+
+.button-group :hover{
+    background-color: #7c3aed;
+    color: white;
+    transform: translateY(-3px);
+}
+
 main{
     max-width: 1100px;
     margin: auto;
-
     background-color: #181818;
     border: 1px solid #2d2d2d;
 }
 
-/* ===== SECTIONS ===== */
 section{
     padding: 40px 30px;
     border-bottom: 1px solid #2d2d2d;
@@ -71,7 +93,6 @@ section h2{
     letter-spacing: 1px;
 }
 
-/* ===== ABOUT ===== */
 #about{
     text-align: center;
     padding: 80px 30px;
@@ -89,12 +110,10 @@ section h2{
     color: #aaa;
 }
 
-/* ===== SKILLS ===== */
 #skills ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-
     list-style: none;
 }
 
@@ -103,7 +122,6 @@ section h2{
     border: 1px solid #333;
     padding: 20px;
     border-radius: 6px;
-
     transition: 0.3s;
 }
 
@@ -112,7 +130,6 @@ section h2{
     transform: translateY(-3px);
 }
 
-/* ===== BOTTOM SECTION ===== */
 .bottom{
     display: flex;
     gap: 20px;
@@ -125,26 +142,21 @@ section h2{
 }
 
 
-/* ===== PROJECTS ===== */
 #projects{
     width: 100%;
 }
 
 #projects p{
     width: 100%;
-    height: 180px;
-
+    height: 150px;
     background-color: #202020;
     border: 1px dashed #444;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     color: #666;
 }
 
-/* ===== CONTACT ===== */
 #contact{
     width: 100%;
 }
@@ -155,24 +167,33 @@ section h2{
     background-color: #202020;
     border: 1px solid #333;
     padding: 15px;
-    
-
     color: #aaa;
     width: 100%;
     margin-bottom: 15px;
 }
 
-/* ===== FOOTER ===== */
+button{
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #181818;
+    border-color: white;
+    color: white;
+}
+
+button:hover{
+    background-color: #7c3aed;
+    color: white;
+    transform: translateY(-3px);
+}
+
 footer{
     max-width: 1100px;
     margin: auto;
-
     padding: 20px 30px;
-
     background-color: #181818;
     border: 1px solid #2d2d2d;
     border-top: none;
-
     color: #777;
     font-size: 14px;
 }
