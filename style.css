@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: #111;
+    background-color: #110E1B;
     color: white;
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -19,8 +19,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-    background-color: #181818;
-    border: 1px solid #2d2d2d;
+    background-color: #191528;
+    border: 1px solid #7C162E;
     border-bottom: none;
 }
 
@@ -46,7 +46,7 @@ header a{
 }
 
 header a:hover{
-    color: white;
+    color: #21295C;
 }
 
 .button-group {
@@ -62,32 +62,34 @@ header a:hover{
     padding: 12px 24px;
     font-size: 16px;
     border-radius: 8px;
-    background-color: #181818;
-    border-color: white;
+    background-color: #5C162E;
+    border-color: #7C162E;
     color: white;
 }
 
-.button-group :hover{
-    background-color: #7c3aed;
+.button-group button:hover{
+    background-color: #21295C;
+    border-color: #21295C;
     color: white;
     transform: translateY(-3px);
+    transition: all 0.3s ease;
 }
 
 main{
     max-width: 1100px;
     margin: auto;
-    background-color: #181818;
-    border: 1px solid #2d2d2d;
+    background-color: #191528;
+    border: 1px solid #7C162E;
 }
 
 section{
     padding: 40px 30px;
-    border-bottom: 1px solid #2d2d2d;
+    border-bottom: 1px solid #7C162E;
 }
 
 section h2{
     margin-bottom: 20px;
-    color: #999;
+    color: white;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -118,16 +120,17 @@ section h2{
 }
 
 #skills li{
-    background-color: #202020;
-    border: 1px solid #333;
+    background-color: #5C162E;
+    border: 1px solid #7C162E;
     padding: 20px;
     border-radius: 6px;
     transition: 0.3s;
 }
 
-#skills li:hover{
-    border-color: #7c3aed;
-    transform: translateY(-3px);
+#projects img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
 }
 
 .bottom{
@@ -149,8 +152,8 @@ section h2{
 #projects p{
     width: 100%;
     height: 150px;
-    background-color: #202020;
-    border: 1px dashed #444;
+    background-color: #5C162E;
+    border: 1px dashed #7C162E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,8 +167,8 @@ section h2{
 
 #contact p{
     display: block;
-    background-color: #202020;
-    border: 1px solid #333;
+    background-color: #5C162E;
+    border: 1px solid #7C162E;
     padding: 15px;
     color: #aaa;
     width: 100%;
@@ -176,13 +179,15 @@ button{
     padding: 12px 24px;
     font-size: 16px;
     border-radius: 8px;
-    background-color: #181818;
-    border-color: white;
+    background-color: #5C162E;
+    border-color: #7C162E;
     color: white;
+    transition: all 0.8s ease;
 }
 
 button:hover{
-    background-color: #7c3aed;
+    background-color: #21295C;
+    border-color: #21295C;
     color: white;
     transform: translateY(-3px);
 }
@@ -191,9 +196,9 @@ footer{
     max-width: 1100px;
     margin: auto;
     padding: 20px 30px;
-    background-color: #181818;
-    border: 1px solid #2d2d2d;
+    background-color: #191528;
+    border: 1px solid #7C162E;
     border-top: none;
-    color: #777;
+    color: white;
     font-size: 14px;
 }
