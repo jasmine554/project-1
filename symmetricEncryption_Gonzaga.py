@@ -34,7 +34,7 @@ def addRecord():
 def viewRecord():
     password = input("Enter password: ")
     if password != univPassword:
-        print("Access denied")
+        print("Authentication Failed")
         return
     
     with open("patientRecords.txt", "r") as f:
